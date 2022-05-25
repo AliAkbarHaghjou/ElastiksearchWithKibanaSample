@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aliakbar.haghjou\\Source\\Repos\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj": {}
+    "C:\\Users\\aliakbar.haghjou\\Documents\\GitHub\\ElastiksearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aliakbar.haghjou\\Source\\Repos\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj": {
+    "C:\\Users\\aliakbar.haghjou\\Documents\\GitHub\\ElastiksearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aliakbar.haghjou\\Source\\Repos\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj",
+        "projectUniqueName": "C:\\Users\\aliakbar.haghjou\\Documents\\GitHub\\ElastiksearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj",
         "projectName": "ElastikSearchWithKibanaSample",
-        "projectPath": "C:\\Users\\aliakbar.haghjou\\Source\\Repos\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj",
+        "projectPath": "C:\\Users\\aliakbar.haghjou\\Documents\\GitHub\\ElastiksearchWithKibanaSample\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample.csproj",
         "packagesPath": "C:\\Users\\aliakbar.haghjou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aliakbar.haghjou\\Source\\Repos\\ElastikSearchWithKibanaSample\\ElastikSearchWithKibanaSample\\obj\\",
+        "outputPath": "C:\\Users\\aliakbar.haghjou\\Documents\\GitHub\\ElastiksearchWithKibanaSample\\ElastikSearchWithKibanaSample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aliakbar.haghjou\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "HwApp.Serilog.ElasticSearch": {
+              "target": "Package",
+              "version": "[2.4.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -49,6 +53,14 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             }
           },
           "imports": [

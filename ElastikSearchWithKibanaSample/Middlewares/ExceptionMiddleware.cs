@@ -33,7 +33,7 @@ namespace ElastikSearchWithKibanaSample.Middlewares
             }
             catch (Exception exception)
             {
-                _logger.LogError("Error");
+                _logger.LogError(exception.Message);
                 await HandleExceptionAsync(httpContext, exception);
 
             }

@@ -8,9 +8,11 @@ namespace ElastikSearchWithKibanaSample.Controllers
     public class TodoController : ControllerBase
     {
         private readonly ITodoService _todoService;
+        private readonly ILogger<TodoController> _logger;
 
-        public TodoController(ITodoService todoService)
+        public TodoController(ITodoService todoService, ILogger<TodoController> logger)
         {
+            _logger = logger;
             _todoService = todoService;
         }
 
